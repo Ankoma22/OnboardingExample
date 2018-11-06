@@ -9,19 +9,61 @@
 /* Begin PBXBuildFile section */
 		75E33B9A2190A7A800BB14AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33B992190A7A800BB14AC /* AppDelegate.swift */; };
 		75E33B9C2190A7A800BB14AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33B9B2190A7A800BB14AC /* ViewController.swift */; };
-		75E33B9F2190A7A800BB14AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E33B9D2190A7A800BB14AC /* Main.storyboard */; };
 		75E33BA12190A7AA00BB14AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E33BA02190A7AA00BB14AC /* Assets.xcassets */; };
 		75E33BA42190A7AA00BB14AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E33BA22190A7AA00BB14AC /* LaunchScreen.storyboard */; };
+		75E33BAD2190BB7300BB14AC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BAC2190BB7300BB14AC /* ViewModel.swift */; };
+		75E33BAF2190BBBF00BB14AC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BAE2190BBBF00BB14AC /* Coordinator.swift */; };
+		75E33BB12190BBE700BB14AC /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BB02190BBE700BB14AC /* RootCoordinator.swift */; };
+		75E33BB32190BBFF00BB14AC /* RootInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BB22190BBFF00BB14AC /* RootInjector.swift */; };
+		75E33BB52190BC2800BB14AC /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BB42190BC2800BB14AC /* OnboardingController.swift */; };
+		75E33BBA2190CE3C00BB14AC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BB92190CE3C00BB14AC /* MainViewController.swift */; };
+		75E33BBC2190CE4D00BB14AC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BBB2190CE4D00BB14AC /* MainViewModel.swift */; };
+		75E33BBE2190CE5B00BB14AC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BBD2190CE5B00BB14AC /* ListViewController.swift */; };
+		75E33BC02190CE6800BB14AC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BBF2190CE6800BB14AC /* ListViewModel.swift */; };
+		75E33BC22190CE7700BB14AC /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BC12190CE7700BB14AC /* InputViewController.swift */; };
+		75E33BC42190CE8400BB14AC /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BC32190CE8400BB14AC /* InputViewModel.swift */; };
+		75E33BC62190CF9700BB14AC /* MainViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BC52190CF9700BB14AC /* MainViewCoordinator.swift */; };
+		75E33BC82190CFD200BB14AC /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BC72190CFD200BB14AC /* ListCoordinator.swift */; };
+		75E33BCA2190CFE300BB14AC /* InputCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BC92190CFE300BB14AC /* InputCoordinator.swift */; };
+		75E33BCF2190D55F00BB14AC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BCE2190D55F00BB14AC /* WelcomeViewController.swift */; };
+		75E33BD12190D59E00BB14AC /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BD02190D59E00BB14AC /* WelcomeViewModel.swift */; };
+		75E33BD32190D5AC00BB14AC /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BD22190D5AC00BB14AC /* SelectViewController.swift */; };
+		75E33BD52190D5B800BB14AC /* SelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BD42190D5B800BB14AC /* SelectViewModel.swift */; };
+		75E33BD72190D66400BB14AC /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BD62190D66400BB14AC /* WelcomeCoordinator.swift */; };
+		75E33BD92190D67200BB14AC /* SelectCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E33BD82190D67200BB14AC /* SelectCoordinator.swift */; };
+		75E33BDD2190DA4C00BB14AC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E33BDC2190DA4C00BB14AC /* RxSwift.framework */; };
+		75E33BDF2190DAE300BB14AC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E33BDE2190DAE300BB14AC /* RxCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75E33B962190A7A800BB14AC /* OnboardingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E33B992190A7A800BB14AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E33B9B2190A7A800BB14AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		75E33B9E2190A7A800BB14AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75E33BA02190A7AA00BB14AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E33BA32190A7AA00BB14AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E33BA52190A7AA00BB14AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E33BAC2190BB7300BB14AC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		75E33BAE2190BBBF00BB14AC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		75E33BB02190BBE700BB14AC /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		75E33BB22190BBFF00BB14AC /* RootInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInjector.swift; sourceTree = "<group>"; };
+		75E33BB42190BC2800BB14AC /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		75E33BB92190CE3C00BB14AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		75E33BBB2190CE4D00BB14AC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		75E33BBD2190CE5B00BB14AC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		75E33BBF2190CE6800BB14AC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		75E33BC12190CE7700BB14AC /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		75E33BC32190CE8400BB14AC /* InputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
+		75E33BC52190CF9700BB14AC /* MainViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCoordinator.swift; sourceTree = "<group>"; };
+		75E33BC72190CFD200BB14AC /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		75E33BC92190CFE300BB14AC /* InputCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCoordinator.swift; sourceTree = "<group>"; };
+		75E33BCE2190D55F00BB14AC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		75E33BD02190D59E00BB14AC /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		75E33BD22190D5AC00BB14AC /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		75E33BD42190D5B800BB14AC /* SelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewModel.swift; sourceTree = "<group>"; };
+		75E33BD62190D66400BB14AC /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
+		75E33BD82190D67200BB14AC /* SelectCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCoordinator.swift; sourceTree = "<group>"; };
+		75E33BDC2190DA4C00BB14AC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		75E33BDE2190DAE300BB14AC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E33BDF2190DAE300BB14AC /* RxCocoa.framework in Frameworks */,
+				75E33BDD2190DA4C00BB14AC /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +84,7 @@
 			children = (
 				75E33B982190A7A800BB14AC /* OnboardingExample */,
 				75E33B972190A7A800BB14AC /* Products */,
+				75E33BDB2190DA4C00BB14AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,98 @@
 		75E33B982190A7A800BB14AC /* OnboardingExample */ = {
 			isa = PBXGroup;
 			children = (
+				75E33BCB2190D53400BB14AC /* Onboarding */,
+				75E33BB82190CE1E00BB14AC /* Input */,
+				75E33BB72190CE1400BB14AC /* List */,
+				75E33BB62190CE0700BB14AC /* Main */,
+				75E33BAB2190BB6000BB14AC /* Common */,
 				75E33B992190A7A800BB14AC /* AppDelegate.swift */,
+				75E33BB02190BBE700BB14AC /* RootCoordinator.swift */,
+				75E33BB22190BBFF00BB14AC /* RootInjector.swift */,
+				75E33BB42190BC2800BB14AC /* OnboardingController.swift */,
 				75E33B9B2190A7A800BB14AC /* ViewController.swift */,
-				75E33B9D2190A7A800BB14AC /* Main.storyboard */,
 				75E33BA02190A7AA00BB14AC /* Assets.xcassets */,
 				75E33BA22190A7AA00BB14AC /* LaunchScreen.storyboard */,
 				75E33BA52190A7AA00BB14AC /* Info.plist */,
 			);
 			path = OnboardingExample;
+			sourceTree = "<group>";
+		};
+		75E33BAB2190BB6000BB14AC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BAC2190BB7300BB14AC /* ViewModel.swift */,
+				75E33BAE2190BBBF00BB14AC /* Coordinator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		75E33BB62190CE0700BB14AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BB92190CE3C00BB14AC /* MainViewController.swift */,
+				75E33BBB2190CE4D00BB14AC /* MainViewModel.swift */,
+				75E33BC52190CF9700BB14AC /* MainViewCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		75E33BB72190CE1400BB14AC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BBD2190CE5B00BB14AC /* ListViewController.swift */,
+				75E33BBF2190CE6800BB14AC /* ListViewModel.swift */,
+				75E33BC72190CFD200BB14AC /* ListCoordinator.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		75E33BB82190CE1E00BB14AC /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BC12190CE7700BB14AC /* InputViewController.swift */,
+				75E33BC32190CE8400BB14AC /* InputViewModel.swift */,
+				75E33BC92190CFE300BB14AC /* InputCoordinator.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		75E33BCB2190D53400BB14AC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BCC2190D53B00BB14AC /* Welcome */,
+				75E33BCD2190D54200BB14AC /* Select */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		75E33BCC2190D53B00BB14AC /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BCE2190D55F00BB14AC /* WelcomeViewController.swift */,
+				75E33BD02190D59E00BB14AC /* WelcomeViewModel.swift */,
+				75E33BD62190D66400BB14AC /* WelcomeCoordinator.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		75E33BCD2190D54200BB14AC /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BD22190D5AC00BB14AC /* SelectViewController.swift */,
+				75E33BD42190D5B800BB14AC /* SelectViewModel.swift */,
+				75E33BD82190D67200BB14AC /* SelectCoordinator.swift */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		75E33BDB2190DA4C00BB14AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75E33BDE2190DAE300BB14AC /* RxCocoa.framework */,
+				75E33BDC2190DA4C00BB14AC /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +203,7 @@
 				75E33B922190A7A800BB14AC /* Sources */,
 				75E33B932190A7A800BB14AC /* Frameworks */,
 				75E33B942190A7A800BB14AC /* Resources */,
+				75E33BDA2190D9C300BB14AC /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -124,33 +254,67 @@
 			files = (
 				75E33BA42190A7AA00BB14AC /* LaunchScreen.storyboard in Resources */,
 				75E33BA12190A7AA00BB14AC /* Assets.xcassets in Resources */,
-				75E33B9F2190A7A800BB14AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75E33BDA2190D9C300BB14AC /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75E33B922190A7A800BB14AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E33BD52190D5B800BB14AC /* SelectViewModel.swift in Sources */,
+				75E33BC62190CF9700BB14AC /* MainViewCoordinator.swift in Sources */,
+				75E33BD12190D59E00BB14AC /* WelcomeViewModel.swift in Sources */,
+				75E33BAF2190BBBF00BB14AC /* Coordinator.swift in Sources */,
+				75E33BC42190CE8400BB14AC /* InputViewModel.swift in Sources */,
+				75E33BB32190BBFF00BB14AC /* RootInjector.swift in Sources */,
 				75E33B9C2190A7A800BB14AC /* ViewController.swift in Sources */,
+				75E33BCF2190D55F00BB14AC /* WelcomeViewController.swift in Sources */,
+				75E33BCA2190CFE300BB14AC /* InputCoordinator.swift in Sources */,
+				75E33BC22190CE7700BB14AC /* InputViewController.swift in Sources */,
+				75E33BD92190D67200BB14AC /* SelectCoordinator.swift in Sources */,
+				75E33BB52190BC2800BB14AC /* OnboardingController.swift in Sources */,
+				75E33BB12190BBE700BB14AC /* RootCoordinator.swift in Sources */,
+				75E33BC82190CFD200BB14AC /* ListCoordinator.swift in Sources */,
+				75E33BAD2190BB7300BB14AC /* ViewModel.swift in Sources */,
 				75E33B9A2190A7A800BB14AC /* AppDelegate.swift in Sources */,
+				75E33BD32190D5AC00BB14AC /* SelectViewController.swift in Sources */,
+				75E33BBA2190CE3C00BB14AC /* MainViewController.swift in Sources */,
+				75E33BD72190D66400BB14AC /* WelcomeCoordinator.swift in Sources */,
+				75E33BBE2190CE5B00BB14AC /* ListViewController.swift in Sources */,
+				75E33BBC2190CE4D00BB14AC /* MainViewModel.swift in Sources */,
+				75E33BC02190CE6800BB14AC /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		75E33B9D2190A7A800BB14AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75E33B9E2190A7A800BB14AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75E33BA22190A7AA00BB14AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W5JFQ3FD2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OnboardingExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.andrej.OnboardingExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +470,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W5JFQ3FD2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OnboardingExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.andrej.OnboardingExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
